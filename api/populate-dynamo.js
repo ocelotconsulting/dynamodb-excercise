@@ -26,7 +26,7 @@ const run = async () => {
           [tableName]: chunk.map(buildItem)
         }
       }
-      console.info('writting...')
+      console.info('writing...')
       await dynamodb.batchWriteItem(params).promise()
     } catch (e) {
       console.error(e)
