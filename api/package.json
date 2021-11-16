@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "@aws/dynamodb-data-marshaller": "^0.7.3",
-    "aws-sdk": "^2.541.0",
+    "aws-sdk": "^2.814.0",
     "lodash": "^4.17.15",
     "moment": "^2.24.0"
   }
